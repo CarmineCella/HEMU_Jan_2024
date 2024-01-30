@@ -1,6 +1,6 @@
-# [Lessosn HEMU - January 31, 2024]
+# [Lessons HEMU - January 31, 2024]
 
-This repository contains the materials for my class at HEMU (slides and patches).
+This repository contains the materials for my lessons at HEMU (slides and patches).
 
 Open patches/MAIN.maxpat for the session on augmented instruments.
 
