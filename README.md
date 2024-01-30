@@ -4,6 +4,6 @@ This repository contains the materials for my lessons at HEMU (slides and patche
 
 Open patches/MAIN.maxpat for the session on augmented instruments.
 
-*DO NOT USE OR DISTRIBUTE WITHOUT PERMISSION*
+**DO NOT USE OR DISTRIBUTE WITHOUT PERMISSION**
 
 (c) 2024, Carmine-Emanuele Cella
