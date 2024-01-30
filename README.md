@@ -1,4 +1,4 @@
-# [Lessons HEMU - January 31, 2024]
+# [HEMU lessons - January 31, 2024]
 
 This repository contains the materials for my lessons at HEMU (slides and patches).
 
