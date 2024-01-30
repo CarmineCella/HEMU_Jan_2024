@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 116.0, 1339.0, 751.0 ],
+		"rect" : [ 35.0, 116.0, 942.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -47,9 +47,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 46.0, 465.600006103515625, 145.600006103515625, 62.399997711181641 ],
+					"patching_rect" : [ 46.0, 465.600006103515625, 146.0, 62.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 202.688111037015915, 127.0, 69.599998474121094 ],
+					"presentation_rect" : [ 14.0, 202.688111037015915, 127.0, 70.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
@@ -275,8 +275,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 11,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1341,18 +1341,18 @@
 					"patching_rect" : [ 222.0, 663.0, 52.0, 20.0 ],
 					"restore" : 					{
 						"1-Mirror-bpm" : [ 120 ],
-						"1-Mirror-detune" : [ 75 ],
+						"1-Mirror-detune" : [ 10 ],
 						"1-Mirror-echo" : [ 100 ],
 						"1-Mirror-enable" : [ 0 ],
-						"1-Mirror-envelope-down" : [ 41 ],
-						"1-Mirror-envelope-up" : [ 65 ],
-						"1-Mirror-notes" : [ 0, 22, 5, 35, 8, 19, 11, 62 ],
+						"1-Mirror-envelope-down" : [ 100 ],
+						"1-Mirror-envelope-up" : [ 15 ],
+						"1-Mirror-notes" : [ 0, 1, 5, 1, 8, 1, 9, 1 ],
 						"1-Mirror-probability" : [ 64.0 ],
-						"1-Mirror-random-center" : [ 85 ],
-						"1-Mirror-random-width" : [ 42 ],
-						"1-Mirror-volume" : [ 23 ],
-						"button" : [ 1.0 ],
-						"multislider" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 13.0, 18.0, 0.0, 0.0, 0.0, 0.0, 41.0, 0.0, 0.0, 55.0, 0.0, 0.0, 70.0, 74.0, 0.0, 0.0, 0.0, 0.0, 98.0, 0.0, 0.0, 112.0, 0.0, 0.0, 127.0, 122.0, 0.0, 0.0, 0.0, 0.0, 98.0, 0.0, 0.0, 84.0, 0.0, 0.0, 70.0, 65.0, 0.0, 0.0, 0.0, 0.0, 41.0, 0.0, 0.0 ]
+						"1-Mirror-random-center" : [ 64 ],
+						"1-Mirror-random-width" : [ 20 ],
+						"1-Mirror-volume" : [ 20 ],
+						"button" : [ 0.0 ],
+						"multislider" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 7.0, 15.0, 0.0, 0.0, 39.0, 0.0, 0.0, 0.0, 0.0, 79.0, 0.0, 0.0, 103.0, 111.0, 0.0, 0.0, 119.0, 0.0, 0.0, 0.0, 0.0, 79.0, 0.0, 0.0, 55.0, 47.0, 0.0, 0.0, 23.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1686,7 +1686,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 655.376309752619477, 1.0, 0, 1441.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 35.375069750139495, 1.0, 0, 4690.0, 0.0, 0 ],
 					"bgcolor" : [ 0.0, 0.066667, 0.066667, 1.0 ],
 					"clickadd" : 0,
 					"domain" : 10000.0,
@@ -1850,12 +1850,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 13,
+					"linecount" : 12,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.0, 695.666666269302368, 151.0, 154.0 ],
+					"patching_rect" : [ 53.0, 695.666666269302368, 159.0, 143.0 ],
 					"text" : ";\n#1-Mirror-enable 0;\n#1-Mirror-notes 0 1, 5 1, 8 1;\n#1-Mirror-random-center 64 0;\n#1-Mirror-random-width 20 0;\n#1-Mirror-echo 100 0;\n#1-Mirror-detune 10 0;\n#1-Mirror-probability 64 0;\n#1-Mirror-volume 20 0;\n#1-Mirror-envelope-up 15 0;\n#1-Mirror-envelope-down 100 0;\n#1-Mirror-bpm 120 0;"
 				}
 
